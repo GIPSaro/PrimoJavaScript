@@ -15,20 +15,20 @@ console.log("Hello World");
 dataType = "ELENCO DATATYPE";
 console.log(dataType);
 dataType1 = "STRING";
-let description1 = dataType1 + " " + "è una variabile di tipo scrittura";
+let description1 = dataType1 + " " + ": è una variabile di tipo scrittura";
 console.log(description1);
 dataType2 = "NUMBER";
-let description2 = dataType2 + " " + "è una variabile di tipo numerico";
+let description2 = dataType2 + " " + ": è una variabile di tipo numerico";
 console.log(description2);
 dataType3 = "BOOLEAN";
-let description3 = dataType3 + " " + "True / False";
+let description3 = dataType3 + " " + ": True / False";
 console.log(description3);
 dataType4 = "UNDEFINED";
-let description4 = dataType4 + " " + "valore indefinito";
+let description4 = dataType4 + " " + ": valore indefinito";
 dataType5 = "NULL";
 console.log(description4);
 let description5 =
-  dataType5 + " " + "valore intenzionalmente e provvisoriamente idefinito ";
+  dataType5 + " " + ": valore intenzionalmente e provvisoriamente idefinito ";
 console.log(description5);
 
 /* ESERCIZIO 2
@@ -38,11 +38,8 @@ console.log(description5);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name = "Giorgia";
 console.log(name);
-console.log(
-  typeof name +
-    " " +
-    "Giorgia, avendo un valore tra virgolette, risulterà una stringa"
-);
+console.log("Giorgia, avendo un valore tra gli apici, risulterà una stringa");
+console.log(typeof name + " " + "(questo è un typeof)");
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
