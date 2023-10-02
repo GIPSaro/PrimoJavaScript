@@ -13,13 +13,17 @@ console.log("Hello World");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 dataType = "ELENCO DATATYPE";
-dataType1 = "STRING";
+
 dataType2 = "NUMER";
 dataType3 = "BOOLEAN";
 dataType4 = "UNDEFINED";
 dataType5 = "NULL";
+dataType1 = "STRING";
+let description1 = dataType1 + " " + "è una variabile di tipo scrittura";
+
 console.log(dataType);
 console.log(dataType1);
+console.log(description1);
 console.log(dataType2);
 console.log(dataType3);
 console.log(dataType4);
@@ -58,15 +62,18 @@ console.log(x);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const name =
-  "Ipsaro Passione"; /*Uncaught SyntaxError: Identifier 'name' has already been declared (at D1.js:61:7)*/
-console.log(name);
+/* const name =
+  "Ipsaro Passione"; ( Uncaught SyntaxError: Identifier 'name' has already been declared (at D1.js:61:7))
+console.log(name);*/
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+num = 4;
+let sottrazione = num - x;
+console.log(sottrazione);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -75,3 +82,7 @@ console.log(name);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+name1 = "john";
+console.log(name1);
+name2 = "John";
+console.log("name1" === "name2: ");
