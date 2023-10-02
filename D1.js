@@ -13,21 +13,23 @@ console.log("Hello World");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 dataType = "ELENCO DATATYPE";
-
-dataType2 = "NUMER";
-dataType3 = "BOOLEAN";
-dataType4 = "UNDEFINED";
-dataType5 = "NULL";
+console.log(dataType);
 dataType1 = "STRING";
 let description1 = dataType1 + " " + "è una variabile di tipo scrittura";
-
-console.log(dataType);
-console.log(dataType1);
 console.log(description1);
-console.log(dataType2);
-console.log(dataType3);
-console.log(dataType4);
-console.log(dataType5);
+dataType2 = "NUMBER";
+let description2 = dataType2 + " " + "è una variabile di tipo numerico";
+console.log(description2);
+dataType3 = "BOOLEAN";
+let description3 = dataType3 + " " + "True / False";
+console.log(description3);
+dataType4 = "UNDEFINED";
+let description4 = dataType4 + " " + "valore indefinito";
+dataType5 = "NULL";
+console.log(description4);
+let description5 =
+  dataType5 + " " + "valore intenzionalmente e provvisoriamente idefinito ";
+console.log(description5);
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -36,7 +38,11 @@ console.log(dataType5);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name = "Giorgia";
 console.log(name);
-console.log(typeof name);
+console.log(
+  typeof name +
+    " " +
+    "Giorgia, avendo un valore tra virgolette, risulterà una stringa"
+);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
