@@ -46,9 +46,9 @@ console.log(typeof name + " " + "(questo è un typeof)");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 num1 = 12;
-console.log(num1);
+//console.log(num1);//
 num2 = 20;
-console.log(num2);
+//console.log(num2);//
 let somma = num1 + num2;
 console.log(somma);
 /* ESERCIZIO 4
@@ -65,6 +65,7 @@ console.log(x);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// RISPOSTA //
 /* const name =
   "Ipsaro Passione"; ( Uncaught SyntaxError: Identifier 'name' has already been declared (at D1.js:61:7))
 console.log(name);*/
@@ -86,13 +87,13 @@ console.log(sottrazione);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 name1 = "john";
-console.log(name1);
+//console.log(name1);//
 name2 = "John";
-console.log(name2);
+//console.log(name2);//
 console.log(name1 === name2);
 
 name1 = "john";
-console.log(name1);
+//console.log(name1);//
 name2 = "john";
-console.log(name2);
+//console.log(name2);//
 console.log(name1 === name2);
